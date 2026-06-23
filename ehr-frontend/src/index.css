@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+
+  html,
+  body,
+  #root {
+    min-height: 100vh;
+    background-color: #6B7A8D;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+}
